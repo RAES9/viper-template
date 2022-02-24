@@ -43,7 +43,7 @@ class FirstPresenter: ObservableObject {
     
     //MARK: - Notifications
     
-    @objc func goToSecondWithDispatch(notification: Notification) {
+    @objc private func goToSecondWithDispatch(notification: Notification) {
         goToSecond()
     }
 }
