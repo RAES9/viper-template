@@ -40,6 +40,7 @@
 		87CA1A4D27C4330100A8D915 /* EnvironmentValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA1A4C27C4330100A8D915 /* EnvironmentValues+Extensions.swift */; };
 		87EC9AC527C7F60F0029A4F8 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC9AC427C7F60F0029A4F8 /* FirstViewModel.swift */; };
 		87EC9AC727C81ED30029A4F8 /* MainNavigationIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC9AC627C81ED30029A4F8 /* MainNavigationIdentifier.swift */; };
+		87EC9AC927C83B7A0029A4F8 /* FirstNotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC9AC827C83B7A0029A4F8 /* FirstNotificationNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		87CA1A4C27C4330100A8D915 /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
 		87EC9AC427C7F60F0029A4F8 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
 		87EC9AC627C81ED30029A4F8 /* MainNavigationIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationIdentifier.swift; sourceTree = "<group>"; };
+		87EC9AC827C83B7A0029A4F8 /* FirstNotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNotificationNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				87EC9AC427C7F60F0029A4F8 /* FirstViewModel.swift */,
+				87EC9AC827C83B7A0029A4F8 /* FirstNotificationNames.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -590,6 +593,7 @@
 				87CA1A3427C4238900A8D915 /* ThirdInteractor.swift in Sources */,
 				87CA1A4627C4261A00A8D915 /* FourthInteractor.swift in Sources */,
 				87CA19C027C410BA00A8D915 /* viperExampleApp.swift in Sources */,
+				87EC9AC927C83B7A0029A4F8 /* FirstNotificationNames.swift in Sources */,
 				87CA1A2127C4195A00A8D915 /* SecondView.swift in Sources */,
 				87CA1A2227C4195A00A8D915 /* SecondInteractor.swift in Sources */,
 				87CA19EE27C4112E00A8D915 /* RootView.swift in Sources */,
