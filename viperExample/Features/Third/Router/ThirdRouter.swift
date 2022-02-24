@@ -13,7 +13,7 @@ struct ThirdRouter {
     
     func pushFourth(){
         let fourthView = FourthModuleInitializer().createFourthModule()
-        self.navStack.push(fourthView, withId: "fourthView")
+        self.navStack.push(fourthView, withId: MainNavigationIdentifier.fourthView)
     }
     
     func popToRoot(){

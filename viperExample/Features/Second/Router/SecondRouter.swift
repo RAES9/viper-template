@@ -13,6 +13,6 @@ struct SecondRouter {
     
     func pushThird(){
         let thirdView = ThirdModuleInitializer().createThirdModule()
-        self.navStack.push(thirdView, withId: "thirdView")
+        self.navStack.push(thirdView, withId: MainNavigationIdentifier.thirdView)
     }
 }

@@ -16,6 +16,6 @@ struct FourthRouter {
     }
     
     func popToSecond(){
-        self.navStack.pop(to: .view(withId: "secondView"))
+        self.navStack.pop(to: .view(withId: MainNavigationIdentifier.secondView))
     }
 }

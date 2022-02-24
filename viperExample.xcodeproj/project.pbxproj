@@ -39,6 +39,7 @@
 		87CA1A4B27C4329800A8D915 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA1A4A27C4329800A8D915 /* View+Extensions.swift */; };
 		87CA1A4D27C4330100A8D915 /* EnvironmentValues+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA1A4C27C4330100A8D915 /* EnvironmentValues+Extensions.swift */; };
 		87EC9AC527C7F60F0029A4F8 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC9AC427C7F60F0029A4F8 /* FirstViewModel.swift */; };
+		87EC9AC727C81ED30029A4F8 /* MainNavigationIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EC9AC627C81ED30029A4F8 /* MainNavigationIdentifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		87CA1A4A27C4329800A8D915 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		87CA1A4C27C4330100A8D915 /* EnvironmentValues+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extensions.swift"; sourceTree = "<group>"; };
 		87EC9AC427C7F60F0029A4F8 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		87EC9AC627C81ED30029A4F8 /* MainNavigationIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationIdentifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				87CA19ED27C4112E00A8D915 /* RootView.swift */,
+				87EC9AC627C81ED30029A4F8 /* MainNavigationIdentifier.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -579,6 +582,7 @@
 				87CA1A1127C412F200A8D915 /* FirstModuleInitializer.swift in Sources */,
 				87CA1A0D27C412B900A8D915 /* FirstView.swift in Sources */,
 				87CA1A0E27C412B900A8D915 /* FirstInteractor.swift in Sources */,
+				87EC9AC727C81ED30029A4F8 /* MainNavigationIdentifier.swift in Sources */,
 				87CA1A4527C4261A00A8D915 /* FourthModuleInitializer.swift in Sources */,
 				87CA1A4B27C4329800A8D915 /* View+Extensions.swift in Sources */,
 				87CA1A4427C4261A00A8D915 /* FourthView.swift in Sources */,
