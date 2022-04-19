@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		877F059D27C438D70036BC23 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877F059C27C438D70036BC23 /* NavigationBar.swift */; };
+		879C7E9327D2BCAA0011CC75 /* TabBarViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E8927D2BCAA0011CC75 /* TabBarViewViewModel.swift */; };
+		879C7E9427D2BCAA0011CC75 /* TabBarViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E8B27D2BCAA0011CC75 /* TabBarViewPresenter.swift */; };
+		879C7E9527D2BCAA0011CC75 /* TabBarViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E8D27D2BCAA0011CC75 /* TabBarViewView.swift */; };
+		879C7E9627D2BCAA0011CC75 /* TabBarViewModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E8E27D2BCAA0011CC75 /* TabBarViewModuleInitializer.swift */; };
+		879C7E9727D2BCAA0011CC75 /* TabBarViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E9027D2BCAA0011CC75 /* TabBarViewInteractor.swift */; };
+		879C7E9827D2BCAA0011CC75 /* TabBarViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879C7E9227D2BCAA0011CC75 /* TabBarViewRouter.swift */; };
 		87CA19C027C410BA00A8D915 /* viperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87CA19BF27C410BA00A8D915 /* viperExampleApp.swift */; };
 		87CA19C427C410BD00A8D915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CA19C327C410BD00A8D915 /* Assets.xcassets */; };
 		87CA19C727C410BD00A8D915 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87CA19C627C410BD00A8D915 /* Preview Assets.xcassets */; };
@@ -62,6 +68,12 @@
 
 /* Begin PBXFileReference section */
 		877F059C27C438D70036BC23 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		879C7E8927D2BCAA0011CC75 /* TabBarViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewViewModel.swift; sourceTree = "<group>"; };
+		879C7E8B27D2BCAA0011CC75 /* TabBarViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewPresenter.swift; sourceTree = "<group>"; };
+		879C7E8D27D2BCAA0011CC75 /* TabBarViewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewView.swift; sourceTree = "<group>"; };
+		879C7E8E27D2BCAA0011CC75 /* TabBarViewModuleInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewModuleInitializer.swift; sourceTree = "<group>"; };
+		879C7E9027D2BCAA0011CC75 /* TabBarViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewInteractor.swift; sourceTree = "<group>"; };
+		879C7E9227D2BCAA0011CC75 /* TabBarViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewRouter.swift; sourceTree = "<group>"; };
 		87CA19BC27C410BA00A8D915 /* viperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87CA19BF27C410BA00A8D915 /* viperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperExampleApp.swift; sourceTree = "<group>"; };
 		87CA19C327C410BD00A8D915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,6 +153,59 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		879C7E8727D2BCAA0011CC75 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E8827D2BCAA0011CC75 /* Entity */,
+				879C7E8A27D2BCAA0011CC75 /* Presenter */,
+				879C7E8C27D2BCAA0011CC75 /* View */,
+				879C7E8E27D2BCAA0011CC75 /* TabBarViewModuleInitializer.swift */,
+				879C7E8F27D2BCAA0011CC75 /* Interactor */,
+				879C7E9127D2BCAA0011CC75 /* Router */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		879C7E8827D2BCAA0011CC75 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E8927D2BCAA0011CC75 /* TabBarViewViewModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		879C7E8A27D2BCAA0011CC75 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E8B27D2BCAA0011CC75 /* TabBarViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		879C7E8C27D2BCAA0011CC75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E8D27D2BCAA0011CC75 /* TabBarViewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		879C7E8F27D2BCAA0011CC75 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E9027D2BCAA0011CC75 /* TabBarViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		879C7E9127D2BCAA0011CC75 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				879C7E9227D2BCAA0011CC75 /* TabBarViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		87CA19B327C410BA00A8D915 = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +281,7 @@
 				87CA1A1427C4195900A8D915 /* Second */,
 				87CA1A2627C4238900A8D915 /* Third */,
 				87CA1A3827C4261900A8D915 /* Fourth */,
+				879C7E8727D2BCAA0011CC75 /* TabBarView */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -582,15 +648,20 @@
 				87CA1A3327C4238900A8D915 /* ThirdView.swift in Sources */,
 				87EC9AC527C7F60F0029A4F8 /* FirstViewModel.swift in Sources */,
 				877F059D27C438D70036BC23 /* NavigationBar.swift in Sources */,
+				879C7E9727D2BCAA0011CC75 /* TabBarViewInteractor.swift in Sources */,
+				879C7E9627D2BCAA0011CC75 /* TabBarViewModuleInitializer.swift in Sources */,
 				87CA1A1127C412F200A8D915 /* FirstModuleInitializer.swift in Sources */,
+				879C7E9327D2BCAA0011CC75 /* TabBarViewViewModel.swift in Sources */,
 				87CA1A0D27C412B900A8D915 /* FirstView.swift in Sources */,
 				87CA1A0E27C412B900A8D915 /* FirstInteractor.swift in Sources */,
 				87EC9AC727C81ED30029A4F8 /* MainNavigationIdentifier.swift in Sources */,
 				87CA1A4527C4261A00A8D915 /* FourthModuleInitializer.swift in Sources */,
 				87CA1A4B27C4329800A8D915 /* View+Extensions.swift in Sources */,
+				879C7E9527D2BCAA0011CC75 /* TabBarViewView.swift in Sources */,
 				87CA1A4427C4261A00A8D915 /* FourthView.swift in Sources */,
 				87CA1A1F27C4195A00A8D915 /* SecondPresenter.swift in Sources */,
 				87CA1A3427C4238900A8D915 /* ThirdInteractor.swift in Sources */,
+				879C7E9427D2BCAA0011CC75 /* TabBarViewPresenter.swift in Sources */,
 				87CA1A4627C4261A00A8D915 /* FourthInteractor.swift in Sources */,
 				87CA19C027C410BA00A8D915 /* viperExampleApp.swift in Sources */,
 				87EC9AC927C83B7A0029A4F8 /* FirstNotificationNames.swift in Sources */,
@@ -601,6 +672,7 @@
 				87CA1A3127C4238900A8D915 /* ThirdPresenter.swift in Sources */,
 				87CA1A2327C4195A00A8D915 /* SecondRouter.swift in Sources */,
 				87CA1A3227C4238900A8D915 /* ThirdModuleInitializer.swift in Sources */,
+				879C7E9827D2BCAA0011CC75 /* TabBarViewRouter.swift in Sources */,
 				87CA1A3527C4238900A8D915 /* ThirdRouter.swift in Sources */,
 				87CA1A0F27C412B900A8D915 /* FirstRouter.swift in Sources */,
 			);
